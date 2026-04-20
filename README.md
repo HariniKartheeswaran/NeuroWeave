@@ -2,11 +2,6 @@
 
 **NeuroWeave** is a professional-grade, interactive Adversarial Machine Learning Framework and Simulation Dashboard. It is designed to visually demonstrate the catastrophic vulnerabilities of Convolutional Neural Networks (CNNs) to gradient-based pixel manipulation, and to mathematically analyze the limits of algorithmic defense mechanisms (Adversarial Purification).
 
-![NeuroWeave Dashboard](results/Web_Mission_Debrief.png)
-
-
----
-
 ## ⚡ The Simulation
 
 NeuroWeave allows researchers and engineers to act as both the Attacker and the Defender against a live, pre-trained ResNet-20 Neural Engine (trained on the CIFAR-10 distribution).
