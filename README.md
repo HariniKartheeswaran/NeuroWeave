@@ -10,18 +10,13 @@ NeuroWeave allows researchers and engineers to act as both the Attacker and the 
 Upon selecting a target payload (e.g., forcing the AI to misclassify an image of a 'Cat' as a 'Dog'), the framework launches an incredibly aggressive **Projected Gradient Descent (PGD)** attack. 
 * **The Mathematics:** Over 100 deep-mutation cycles, the Neural Engine's gradient pathways are mathematically calculated. The virus selectively infects pixels, crawling outward like cellular automata, and continually pushes the tensor geometry linearly towards the targeted False Reality until the Neural Engine's Softmax activation forcefully hits a mathematically perfect `100.0%`.
 * **The Visualization:** The framework constructs a real-time `Mission Debrief Dashboard` containing 3D Pixel Activity Maps, Neural Collapse Timeline Graphs, and generates a dynamic GIF showing the virus spreading across the asset.
+* **The Auditory Layer (Neural Scream):** To provide a visceral, multi-modal representation of network decay, NeuroWeave implements cross-modal frequency mapping. The framework translates shifting Softmax confidence values into a real-time "Neural Scream." High-confidence adversarial hallucinations generate piercing high-frequency oscillations, while mathematical uncertainty manifests as high-entropy distortion and auditory "shuddering," allowing researchers to *hear* the biological-style decay of the network logic.
 
 ### 2. Sentinel Isotropic Memory Sieve (The Defense)
 The framework attempts an honest, highly advanced, zero-shot mathematical purification to salvage the asset using the `Sentinel Protocol`:
 * **Non-Linear Median Scrape:** A mechanical pass that identifies and mathematically extracts severe high-frequency "salt-and-pepper" adversarial spikes.
 * **Isotropic Gaussian Verification:** The continuous addition of highly controlled Gaussian noise to completely shatter the fragile, pixel-perfect floating-point alignments required by the PGD targeted attack to retain its 'Dog' hallucination.
-
 ---
-### 🔊 Neural Scream Documentation Added
-- **Focus:** Multi-modal adversarial feedback
-- **Tech:** Cross-modal frequency mapping
-- **Impact:** Translates mathematical decay into visceral sonic output
-
 
 ## 🧬 Why The Sentinel Fails (The Superiority of PGD)
 **The terrifying conclusion of this cybersecurity simulation is that the Defense mathematically fails by design.** 
