@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+env/
+.vs/
+.vscode/
+
+# Keep the results folder but ignore the dynamic files if you want, or commit them as examples!
+# results/*
+# !results/.gitkeep
+
+data/
+results/
