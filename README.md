@@ -17,6 +17,11 @@ The framework attempts an honest, highly advanced, zero-shot mathematical purifi
 * **Isotropic Gaussian Verification:** The continuous addition of highly controlled Gaussian noise to completely shatter the fragile, pixel-perfect floating-point alignments required by the PGD targeted attack to retain its 'Dog' hallucination.
 
 ---
+### 🔊 Neural Scream Documentation Added
+- **Focus:** Multi-modal adversarial feedback
+- **Tech:** Cross-modal frequency mapping
+- **Impact:** Translates mathematical decay into visceral sonic output
+
 
 ## 🧬 Why The Sentinel Fails (The Superiority of PGD)
 **The terrifying conclusion of this cybersecurity simulation is that the Defense mathematically fails by design.** 
