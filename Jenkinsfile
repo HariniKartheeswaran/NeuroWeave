@@ -16,11 +16,10 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                // Use 'bat' for Windows agents, or 'sh' for Linux/macOS agents.
-                // Assuming a Windows environment since your OS is Windows, but change 'bat' to 'sh' if Jenkins runs on Linux.
-                bat '''
-                    python -m venv venv
-                    call venv\\Scripts\\activate
+                // Jenkins in Docker runs on Linux, so we use 'sh' and Linux paths
+                sh '''
+                    python3 -m venv venv
+                    . venv/bin/activate
                     python -m pip install --upgrade pip
                     pip install -r requirements.txt
                 '''
@@ -29,16 +28,13 @@ pipeline {
 
         stage('Syntax Check / Lint') {
             steps {
-                // Since there are no unit tests yet, we can do a basic syntax check to ensure the code compiles.
-                bat '''
-                    call venv\\Scripts\\activate
+                // Ensure syntax check runs correctly on Linux
+                sh '''
+                    . venv/bin/activate
                     python -m py_compile web_app.py main.py src/*.py
                 '''
             }
         }
-        
-        // You can add a 'Test' stage here in the future if you add pytest or unittest files!
-        // stage('Test') { ... }
     }
 
     post {
